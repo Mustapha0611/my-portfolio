@@ -6,6 +6,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Bai Jamjuree', sans-serif;
+        overflow: hidden !important;
     }
     
     .container{
@@ -38,7 +39,6 @@
         text-decoration: none;
         color: white;
         padding:7px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         border-radius: 7px;
         font-size: 1.2em;
         transition: .3s;
@@ -116,7 +116,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50vh; 
+        height: 500px; 
         background-color: #2a272a;
     }
     .hero{
@@ -126,11 +126,11 @@
     .hero > img{
         width: 70%;
         height: 300px;
-        border-radius: 50%;
+        border-radius: 100px 10px 100px 10px;
     }
     
     .about-text{
-        width: 45%;
+        width: 50%;
         color:#ebebeb;
     }
     
@@ -141,6 +141,8 @@
     
     .about-text > p{
         width: 80%;
+        font-size: 18px;
+        line-height: 2;
     }
     
     .resume > a{
@@ -224,21 +226,22 @@
         display: block;
     }
     .projects{
-        height: 60vh;
+        height: 600px;
         background-color: #ebebeb;
+        overflow:hidden !important;
     }
     
     .projects > ul{
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         
     }
     
     .projects > ul > li{
-        margin: 20px 5%;
+        margin: 20px 2%;
         width: 300px;
-        height: 40vh;
+        height: 400px;
         border-radius: 10px;
         color: #2a272a;
         border: #c4c4c4 1px solid;
@@ -248,6 +251,7 @@
     
     .projects  > ul >li >img{
         width: 90%;
+        height: 250px;
         margin: 10px 5%;
         border-radius: 10px;
     
@@ -344,6 +348,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Bai Jamjuree', sans-serif;
+        overflow: hidden !important;
     }
     
     .container{
@@ -356,8 +361,7 @@
         height: 7vh;
         display: flex;
         align-items: center;
-        /* position: sticky; */
-        /* top: 0; */
+   
     }
     
     header > div{
@@ -371,15 +375,15 @@
     
     nav{
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: center;
+        align-items: flex-start;
         flex-direction: column;
         background-color: #2a272a;
         color: #f3f3f3;
         position: absolute;
         top: 0;
         left: -100%;
-        height: 100vh;
+        height: 99vh;
         width: 100%;
     }
     nav > span{
@@ -399,15 +403,16 @@
         padding:7px;
         /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
         border-radius: 7px;
+        margin: 10px 20px;
         font-size: 2em;
         transition: .3s;
       
     }
-     .active{ 
+     /* .active{ 
         background-color: white; 
          color: rgb(43, 41, 41); 
      } 
-    
+     */
     nav > a:hover{
         background-color: white;
         color: rgb(43, 41, 41);
@@ -468,15 +473,16 @@
         background-color: #2a272a;
     }
     .hero{
-        margin: 20px;
+        margin: 50px 0;
         text-align: center;
         width: 100%;
         
     }
     .hero > img{
         width: 70%;
+        margin: 20px 0;
         height: 300px;
-        border-radius: 50%;
+        border-radius: 100px 10px 100px 10px;
     }
     
     .about-text{
@@ -491,6 +497,7 @@
     
     .about-text > p{
         width: 80%;
+        line-height: 2;
         margin: 10px auto;
     }
     
@@ -498,7 +505,7 @@
         display: inline-block;
         padding: 10px;
         color: #ffffff;
-        margin: 20px 10%;
+        margin: 40px 10%;
         border-radius: 10px;
         font-size: 1.4em;
         border: #ebebeb 2px solid;
@@ -579,9 +586,13 @@
     }
     .projects{
         height: auto;
+        padding: 20px;
         background-color: #ebebeb;
     }
-    
+    .heading{
+        padding: 30px;
+        font-weight: 300;
+    }
     .projects > ul{
         list-style: none;
         display: flex;
@@ -592,7 +603,7 @@
     .projects > ul > li{
         margin: 20px auto;
         width: 300px;
-        height: 50vh;
+        height: 400px;
         border-radius: 10px;
         color: #2a272a;
         border: #c4c4c4 1px solid;
@@ -602,6 +613,7 @@
     
     .projects  > ul >li >img{
         width: 90%;
+        height: 220px;
         margin: 10px 5%;
         border-radius: 10px;
     
@@ -622,9 +634,9 @@
         color: white;
         background-color:#677381;
         border-radius: 10px;
-        font-size: 12px;
+        font-size: 16px;
         padding: 10px 16px;
-        margin: 30px 10px ;
+        margin: 60px 10px ;
     }
 
     
