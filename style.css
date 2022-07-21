@@ -6,7 +6,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Bai Jamjuree', sans-serif;
-        overflow: hidden !important;
+        overflow-x: hidden !important;
     }
     
     .container{
@@ -348,7 +348,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Bai Jamjuree', sans-serif;
-        overflow: hidden !important;
+        overflow-x: hidden !important;
     }
     
     .container{
