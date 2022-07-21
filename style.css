@@ -117,6 +117,7 @@
         justify-content: center;
         align-items: center;
         height: 500px; 
+        overflow-x: hidden !important;
         background-color: #2a272a;
     }
     .hero{
@@ -470,6 +471,7 @@
         align-items: center;
         flex-direction: column;
         height: auto; 
+        overflow-x: hidden !important;
         background-color: #2a272a;
     }
     .hero{
